@@ -1,0 +1,3 @@
+# 💤 my LaxzyVim config
+
+

@@ -1,0 +1,46 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "vim_mode": true,
+  "show_copilot_suggestions": true,
+  "copilot": {
+    "disabled_globs": [".env", "rendu/rotone/rotone.c", "Developer/MyAlgo/"]
+  },
+  "languages": {
+    "C++": {
+      "show_copilot_suggestions": false
+    },
+    "Rust": {
+      "show_copilot_suggestions": true
+    },
+    "C": {
+      "show_copilot_suggestions": false
+    }
+  },
+  "base_keymap": "VSCode",
+  "buffer_font_family": "0xProto Nerd Font Mono",
+  "buffer_font_features": {
+    "calt": true
+  },
+  "tab_size": 2,
+  "theme": "Ayu Light",
+  "ui_font_size": 15,
+  "buffer_font_size": 15,
+  "autosave": "on_window_change",
+  "format_on_save": "off",
+  "enable_language_server": true,
+  "relative_line_numbers": true,
+  "lsp": {
+      "clangd": {
+        "initialization_options": {
+          "--query-driver": "/opt/homebrew/Cellar/gcc/13.2.0/bin/g++-13"
+        }
+      }
+    }
+}

@@ -9,4 +9,5 @@ fish/
 sketchybar/
 exercism/
 raycast/
-.git
+zed/
+*.git/

@@ -45,4 +45,4 @@ yabai -m signal --add event=window_created action="sketchybar --trigger refresh_
 yabai -m signal --add event=window_destroyed action="sketchybar --trigger refresh_current_workspace"
 
 
-#borders active_color=0xff928374 inactive_color=0xff3c3836 width=4.0 &
+borders active_color=0xff928374 inactive_color=0xff3c3836 width=6.0 &

@@ -11,8 +11,8 @@ dynamic_padding = true
 decorations = "buttonless"
 dynamic_title = true
 
-# opacity = 0.8
-# blur = true
+opacity = 0.9
+blur = true
 
 option_as_alt = "Both"
 

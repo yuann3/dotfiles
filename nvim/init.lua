@@ -9,3 +9,8 @@ require("config.lazy")
         "--offset-encoding=utf-16",
       },
     }
+
+vim.g.gruvbox_material_transparent_background = 2 -- or 2 for more transparency
+
+-- Set colorscheme
+vim.cmd('colorscheme gruvbox-material')

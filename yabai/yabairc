@@ -1,15 +1,14 @@
 # default layout (can be bsp, stack or float)
 yabai -m config layout bsp
 
-
 # New window spawns to the right if vertical split, or bottom if horizontal split
 yabai -m config window_placement second_child
 
-#yabai -m config top_padding 4
-#yabai -m config bottom_padding 4
-#yabai -m config left_padding 4
-#yabai -m config right_padding 4
-#yabai -m config window_gap 4
+yabai -m config top_padding 5
+yabai -m config bottom_padding 5
+yabai -m config left_padding 5
+yabai -m config right_padding 5
+yabai -m config window_gap 5
 
 
 # center mouse on window with focus
@@ -44,5 +43,8 @@ yabai -m signal --add event=window_focused action="sketchybar --trigger window_f
 yabai -m signal --add event=window_created action="sketchybar --trigger refresh_current_workspace"
 yabai -m signal --add event=window_destroyed action="sketchybar --trigger refresh_current_workspace"
 
+# Padding for external monitors
+yabai -m signal --add event=display_changed action="python3 ~/.config/yabai/monitor.py"
 
-borders active_color=0xff928374 inactive_color=0xff3c3836 width=6.0 &
+# Border colors
+borders active_color=0xff928375 inactive_color=0xff3c3836 width=6.0 &

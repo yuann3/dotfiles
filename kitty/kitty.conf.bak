@@ -1,0 +1,17 @@
+# BEGIN_KITTY_THEME
+# Gruvbox Material Dark Medium
+include current-theme.conf
+
+font_family      CaskaydiaCove Nerd Font
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+font_size 18.0
+
+# Window
+hide_window_decorations titlebar-only
+
+# Misc
+macos_option_as_alt yes
+
+# END_KITTY_THEME

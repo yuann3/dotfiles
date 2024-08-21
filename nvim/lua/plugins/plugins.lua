@@ -36,5 +36,6 @@ return {
     opts = {
       -- add any options here
     }
-  }
+  },
+  { 'echasnovski/mini.ai', version = '*' },
 }

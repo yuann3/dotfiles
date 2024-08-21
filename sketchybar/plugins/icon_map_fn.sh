@@ -221,7 +221,7 @@ function icon_map() {
   "Music" | "音乐")
     icon_result=":music:"
     ;;
-  "Calendar" | "日历" | "Fantastical" | "Cron" | "Amie")
+  "Calendar" | "日历" | "Fantastical" | "Notion Calendar" | "Amie")
     icon_result=":calendar:"
     ;;
   "Evernote Legacy")
@@ -257,7 +257,7 @@ function icon_map() {
   "Vivaldi")
     icon_result=":vivaldi:"
     ;;
-  "Calibre")
+  "Calibre" | "Books")
     icon_result=":book:"
     ;;
   "Min")

@@ -12,10 +12,10 @@ output_obj = json.loads(output_text)
 width = output_obj[0]["frame"]["w"]
 
 # Set the top padding based on the width
-if width == 3008 or width == 1080:
-    subprocess.run(["yabai", "-m", "config", "top_padding", "40"])
-    print("Padding set to 34")
+if width == 3008 or width == 1080 or width == 3360:
+    subprocess.run(["yabai", "-m", "config", "top_padding", "48"])
+    print("Padding set to 44")
 else:
-    subprocess.run(["yabai", "-m", "config", "top_padding", "1"])
+    subprocess.run(["yabai", "-m", "config", "top_padding", "10"])
     print("Padding set to 0")
 
